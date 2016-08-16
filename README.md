@@ -7,7 +7,7 @@ A very simple wrapper around the org.mindrot.jbcrypt library.
 
 ```clojure
 ;;In your project.clj:
-[clj-bcrypt-wrapper "0.1.0"]
+[clj-bcrypt-wrapper "0.2.0"]
 
 
 ;; In your ns statement:
@@ -24,7 +24,7 @@ A very simple wrapper around the org.mindrot.jbcrypt library.
 (encrypt (gensalt 10) "some password")
 ```
 
-### Checking 
+### Checking
 ```clojure
 (check-password "some password" hashed-password)
 ```
