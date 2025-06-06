@@ -2,12 +2,15 @@
 
 A very simple wrapper around the org.mindrot.jbcrypt library.
 
+I previously pulled my code off of GitHub but I have brought it back for posterity.
+
+I have updated to the last available version of jBcrypt.
 
 ## Usage
 
 ```clojure
 ;;In your project.clj:
-[clj-bcrypt-wrapper "0.2.0"]
+[clj-bcrypt-wrapper "0.3.0"]
 
 
 ;; In your ns statement:
@@ -16,6 +19,7 @@ A very simple wrapper around the org.mindrot.jbcrypt library.
 ```
 
 ### Encrypting
+
 ```clojure
 ;;default salt
 (encrypt "some password")
@@ -25,12 +29,13 @@ A very simple wrapper around the org.mindrot.jbcrypt library.
 ```
 
 ### Checking
+
 ```clojure
 (check-password "some password" hashed-password)
 ```
 
 ## License
 
-Copyright © 2013
+Copyright © 2013-2025
 
 Distributed under the Eclipse Public License, the same as Clojure.

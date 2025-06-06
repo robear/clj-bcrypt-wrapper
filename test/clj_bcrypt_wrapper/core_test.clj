@@ -1,7 +1,7 @@
 (ns clj-bcrypt-wrapper.core-test
-  (:use clojure.test
-        clj-bcrypt-wrapper.core))
+  (:require [clojure.test :refer [deftest testing is]]
+        [clj-bcrypt-wrapper.core :as bcrypt]))
 
 (deftest compare-hashed-to-plain
   (testing "Ensure a hashed password is equal to itself."
-    (is (= true (check-password "1234567890" (encrypt "1234567890"))))))
+    (is (= true (bcrypt/check-password "1234567890" (bcrypt/encrypt "1234567890"))))))

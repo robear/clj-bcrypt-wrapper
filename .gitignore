@@ -6,4 +6,7 @@ classes/*
 .lein-deps-sum
 target/*
 pom.xml
+/pom.xml.asc
 doc
+.clj-kondo
+.lsp
