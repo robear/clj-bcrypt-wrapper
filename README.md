@@ -9,7 +9,11 @@ I have updated to the last available version of jBcrypt.
 ## Usage
 
 ```clojure
-;;In your project.clj:
+
+;;deps.edn
+robear/clj-bcrypt-wrapper {:mvn/version "0.3.0"}
+
+;;Iproject.clj:
 [clj-bcrypt-wrapper "0.3.0"]
 
 
