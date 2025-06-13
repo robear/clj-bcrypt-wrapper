@@ -13,7 +13,7 @@ I have updated to the last available version of jBcrypt.
 ;;deps.edn
 robear/clj-bcrypt-wrapper {:mvn/version "0.3.0"}
 
-;;Iproject.clj:
+;;project.clj:
 [clj-bcrypt-wrapper "0.3.0"]
 
 
